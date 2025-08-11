@@ -64,6 +64,16 @@
             bindings = <&msc SCRL_DOWN>;
             key-positions = <17 18>;
         };
+
+        next-tab {
+            bindings = <&kp LC(TAB)>;
+            key-positions = <7 6>;
+        };
+
+        prev-tab {
+            bindings = <&kp LC(LS(TAB))>;
+            key-positions = <16 17>;
+        };
     };
 
     keymap {
